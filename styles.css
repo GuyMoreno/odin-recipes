@@ -1,11 +1,7 @@
-#title {
-    height: 95vh;
-    width: auto;
-}
-
 .all {
     position: relative;
-    left: 550px;
+    /* left: 550px; */
+    margin: auto;
     width: 45em;
     background-color: gainsboro;
     border-radius: 15px;
@@ -15,7 +11,7 @@
 
 body {
     background-color: lightgray;
-    font-family: serif, sans-serif, monospace;
+    font-family: monospace, serif, sans-serif;
     text-align: center;
 }
 
@@ -25,10 +21,13 @@ h1 {
     font-weight: 800;
 }
 
+h2 {
+    font-size: large;
+}
+
 .content {
     font-style: oblique;
     color: brown;
-    text-align: justify;
     text-align: left;
 }
 
