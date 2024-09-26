@@ -1,0 +1,39 @@
+#title {
+    height: 95vh;
+    width: auto;
+}
+
+.all {
+    position: relative;
+    left: 550px;
+    width: 45em;
+    background-color: gainsboro;
+    border-radius: 15px;
+    border: 2px solid #c9d1d9;
+    padding: 15px;
+}
+
+body {
+    background-color: lightgray;
+    font-family: serif, sans-serif, monospace;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.content {
+    font-style: oblique;
+    color: brown;
+    text-align: justify;
+    text-align: left;
+}
+
+
+#img {
+    width: 300px;
+    height: auto;
+}
