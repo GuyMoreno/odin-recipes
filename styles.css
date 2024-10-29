@@ -1,38 +1,68 @@
 .all {
-    position: relative;
-    /* left: 550px; */
-    margin: auto;
-    width: 45em;
-    background-color: gainsboro;
-    border-radius: 15px;
-    border: 2px solid #c9d1d9;
-    padding: 15px;
+    padding: 30px;
+    background-color: rgb(243, 241, 241);
+    margin: 50px 100px;
 }
 
 body {
-    background-color: lightgray;
+    background-color: rgb(224, 222, 222);
     font-family: monospace, serif, sans-serif;
     text-align: center;
 }
 
+
+
 h1 {
-    text-align: center;
+
     font-size: 40px;
     font-weight: 800;
+
 }
 
-h2 {
-    font-size: large;
+.description {
+    box-sizing: ;
+    text-align: justify;
+    padding: 80px;
+    width: 48%;
+    border-style: ridge;
+    display: inline-flex;
+    padding: 80px;
+
 }
 
 .content {
     font-style: oblique;
     color: brown;
+    box-sizing: border-box;
+    width: 48%;
+    vertical-align: top;
+    justify-content: space-between;
+    margin-left: auto;
+    border-style: ridge;
+    text-align: center;
+    display: inline-block;
+    padding: 80px;
+    border-color: antiquewhite;
+}
+
+.recipes {
+    padding: 0px;
+    list-style-position: inside;
+    margin: 0px;
+    list-style: square;
+
+}
+
+.recipe {
     text-align: left;
+    margin: 5px;
+
 }
 
 
 #img {
-    width: 300px;
+    width: 250px;
     height: auto;
+    margin: 15px;
+    padding: 20px;
 }
